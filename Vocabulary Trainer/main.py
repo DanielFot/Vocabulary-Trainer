@@ -10,25 +10,25 @@ from difflib import SequenceMatcher
 # --- WORDS DATABASE ---
 WORDS = {
     "easy": {
-        "Haus": "house",
-        "Hund": "dog",
-        "Katze": "cat",
+        "Energie": "energy",
+        "Global": "global",
+        "Erde": "earth",
         "Baum": "tree",
-        "Auto": "car"
+        "Ökosystem": "ecosystem"
     },
     "medium": {
-        "Schule": "school",
-        "Freund": "friend",
-        "Buch": "book",
-        "Fenster": "window",
-        "Garten": "garden"
+        "Regenwald": "rainforest",
+        "Hitzewelle": "heatwave",
+        "Wildnis": "wilderness",
+        "Emissionen": "emissions",
+        "Trockenheit": "drought"
     },
     "hard": {
-        "Gesellschaft": "society",
-        "Wissenschaft": "science",
-        "Erfahrung": "experience",
-        "Möglichkeit": "possibility",
-        "Entwicklung": "development"
+        "Nachhaltigkeit": "sustainability",
+        "Fällung": "precipitation",
+        "Entwaldung": "deforestation",
+        "Biodiversität": "biodiversity",
+        "Konservation": "conservation"
     }
 }
 
@@ -162,4 +162,5 @@ class GermanWordGame:
 if __name__ == "__main__":
     root = tk.Tk()
     game = GermanWordGame(root)
+
     root.mainloop()
